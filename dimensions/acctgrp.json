@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"acctgrp",
+	"Hierarchies@Code.links":
+	[
+		"acctgrp.hierarchies/acctgrp.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('acctgrp')/Hierarchies('acctgrp')"
+	}
+}

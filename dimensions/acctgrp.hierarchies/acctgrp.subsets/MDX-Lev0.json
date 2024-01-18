@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"MDX-Lev0",
+	"Expression":"{tm1filterbylevel({TM1SUBSETALL([acctgrp])},0)}"
+}

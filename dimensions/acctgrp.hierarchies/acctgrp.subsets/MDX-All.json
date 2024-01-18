@@ -1,0 +1,5 @@
+{
+	"@type":"Subset",
+	"Name":"MDX-All",
+	"Expression":"{TM1SUBSETALL([acctgrp])}"
+}
