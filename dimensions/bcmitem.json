@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"bcmitem",
+	"Hierarchies@Code.links":
+	[
+		"bcmitem.hierarchies/bcmitem.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('bcmitem')/Hierarchies('bcmitem')"
+	}
+}

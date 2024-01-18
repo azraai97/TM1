@@ -1,0 +1,545 @@
+{
+	"@type":"Hierarchy",
+	"Name":"bcmitem",
+	"Elements":
+	[
+		{
+			"Name":"InterCo Direct",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"InterCo Direct (Trafigura)",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Ex-Rack",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"InterCo Bulk",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Tolling",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Local-Purch",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Production",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Transfer-In",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-JAN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-FEB",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-MAR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-APR",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-MAY",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-JUN",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-JUL",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-AUG",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-SEP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-OCT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-NOV",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Imports-DEC",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oth Refinery Services",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oth Income",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"18049000",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"18600000",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"18610000",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Import Duties",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Trucking Cost",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Frt & Dem Adj",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Loyalty",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Pipeline Freight",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Price Variance",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oth Costs",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Derivative-Rlz",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Direct Opex",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex-5454",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex-4740",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex-5358",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex-4621",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Biz Opex-Direct",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Support Group",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"HR Project",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Other Admin",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Reclassification Entries",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"KVDT",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Oth Op Income",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Distribution",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Sales",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"TP",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"N/A",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Local Purchase",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Allocation",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Reconciling Item",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Other Income",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Direct Fleetcard Opex",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Direct Non Fuels Opex",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Allocated Retail Opex",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Business Opex",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Distributions",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Others",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Check",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Total excl Derivative-Rlz",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Others excl Derivative-Rlz",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"Purchases",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"Local Purchase",
+			"ComponentName":"Tolling",
+			"Weight":1
+		},
+		{
+			"ParentName":"Local Purchase",
+			"ComponentName":"Local-Purch",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"InterCo Direct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"Ex-Rack",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"InterCo Bulk",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"Local Purchase",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"Production",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"Imports",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"Transfer-In",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocation",
+			"ComponentName":"N/A",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reconciling Item",
+			"ComponentName":"Frt & Dem Adj",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reconciling Item",
+			"ComponentName":"Loyalty",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reconciling Item",
+			"ComponentName":"Pipeline Freight",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reconciling Item",
+			"ComponentName":"Price Variance",
+			"Weight":1
+		},
+		{
+			"ParentName":"Reconciling Item",
+			"ComponentName":"Oth Costs",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Income",
+			"ComponentName":"Oth Income",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Income",
+			"ComponentName":"18049000",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Income",
+			"ComponentName":"18600000",
+			"Weight":1
+		},
+		{
+			"ParentName":"Other Income",
+			"ComponentName":"18610000",
+			"Weight":1
+		},
+		{
+			"ParentName":"Direct Fleetcard Opex",
+			"ComponentName":"Biz Opex-5454",
+			"Weight":1
+		},
+		{
+			"ParentName":"Direct Fleetcard Opex",
+			"ComponentName":"Biz Opex-4740",
+			"Weight":1
+		},
+		{
+			"ParentName":"Direct Fleetcard Opex",
+			"ComponentName":"Biz Opex-Direct",
+			"Weight":1
+		},
+		{
+			"ParentName":"Direct Non Fuels Opex",
+			"ComponentName":"Biz Opex-5358",
+			"Weight":1
+		},
+		{
+			"ParentName":"Direct Non Fuels Opex",
+			"ComponentName":"Biz Opex-4621",
+			"Weight":1
+		},
+		{
+			"ParentName":"Allocated Retail Opex",
+			"ComponentName":"Biz Opex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Business Opex",
+			"ComponentName":"Direct Fleetcard Opex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Business Opex",
+			"ComponentName":"Direct Non Fuels Opex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Business Opex",
+			"ComponentName":"Allocated Retail Opex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Distributions",
+			"ComponentName":"Distribution",
+			"Weight":1
+		},
+		{
+			"ParentName":"Distributions",
+			"ComponentName":"KVDT",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Oth Refinery Services",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Other Income",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Import Duties",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Trucking Cost",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Reconciling Item",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Derivative-Rlz",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Business Opex",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Support Group",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"HR Project",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Other Admin",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Reclassification Entries",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Oth Op Income",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others",
+			"ComponentName":"Distributions",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"Allocation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total",
+			"ComponentName":"Others",
+			"Weight":1
+		},
+		{
+			"ParentName":"Check",
+			"ComponentName":"Sales",
+			"Weight":1
+		},
+		{
+			"ParentName":"Check",
+			"ComponentName":"Allocation",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Total excl Derivative-Rlz",
+			"ComponentName":"Total",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total excl Derivative-Rlz",
+			"ComponentName":"Derivative-Rlz",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Others excl Derivative-Rlz",
+			"ComponentName":"Others",
+			"Weight":1
+		},
+		{
+			"ParentName":"Others excl Derivative-Rlz",
+			"ComponentName":"Derivative-Rlz",
+			"Weight":-1
+		},
+		{
+			"ParentName":"Purchases",
+			"ComponentName":"Allocation",
+			"Weight":1
+		},
+		{
+			"ParentName":"Purchases",
+			"ComponentName":"Production",
+			"Weight":-1
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"bcmitem.subsets/Default.json",
+		"bcmitem.subsets/fifolayer.json",
+		"bcmitem.subsets/Others.json"
+	]
+}

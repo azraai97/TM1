@@ -1,0 +1,6 @@
+{
+	"@type":"Subset",
+	"Name":"fifolayer",
+	"ExpandAbove":true,
+	"Expression":"{ EXCEPT( {TM1FILTERBYLEVEL( {TM1DRILLDOWNMEMBER( {TM1FILTERBYPATTERN( {TM1SUBSETALL( [bcmitem] )}, \"Allocation\")}, ALL, RECURSIVE )}, 0)}, { [bcmitem].[N/A] }) }"
+}
